@@ -13,7 +13,6 @@ const App = () => {
         else return "Thân"
 
     }
-
     const [opened, { open, close }] = useDisclosure(false);
     return (
         <div className='w-screen min-h-screen bg-[#f9f2e9] px-3 md:px-0 py-12'>
@@ -29,14 +28,14 @@ const App = () => {
                 </motion.div>
                 <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} >
                     <div className="md:w-[38rem] w-full  aspect-[4/3] bg-white mt-5 flex items-center justify-center relative">
-                        <img className="md:w-[32rem] w-full p-4 md:p-0 aspect-[4/3] object-contain" src="src\assets\image\nhu y.jpg" alt="" />
+                        <img className="md:w-[32rem] w-full p-4 md:p-0 aspect-[4/3] object-contain" src="/image/nhu_y.jpg" alt="" />
                         <div className="absolute w-[5rem] top-0 left-0 ">
-                            <img className="absolute w-[4rem] top-0 left-0 -ml-5 -mt-14" src="src\assets\image\light.png" alt="" />
-                            <img className="absolute w-[3rem] top-0 left-0 ml-5 -mt-1" src="src\assets\image\light.png" alt="" />
+                            <img className="absolute w-[4rem] top-0 left-0 -ml-5 -mt-14" src="/image/light.png" alt="" />
+                            <img className="absolute w-[3rem] top-0 left-0 ml-5 -mt-1" src="/image/light.png" alt="" />
                         </div>
                         <div className="absolute w-[5rem] bottom-[20px]  right-[-20px]">
-                            <img className="absolute w-[4rem] top-0 left-0 -ml-5 -mt-14" src="src\assets\image\light.png" alt="" />
-                            <img className="absolute w-[3rem] top-0 left-0 ml-5 -mt-1" src="src\assets\image\light.png" alt="" />
+                            <img className="absolute w-[4rem] top-0 left-0 -ml-5 -mt-14" src="/image/light.png" alt="" />
+                            <img className="absolute w-[3rem] top-0 left-0 ml-5 -mt-1" src="/image/light.png" alt="" />
                         </div>
                     </div>
                 </motion.div>
