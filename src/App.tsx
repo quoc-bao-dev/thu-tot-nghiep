@@ -1,7 +1,7 @@
+import { Modal } from '@mantine/core';
 import { useDisclosure } from "@mantine/hooks";
 import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
-import { Modal, Button } from '@mantine/core';
 
 const App = () => {
     const { name } = useParams()
@@ -56,13 +56,13 @@ const App = () => {
                 <div className="p-5">
                     <h2 className="text-[#3f3837] font-semibold text-xl md:text-3xl text-center">Lời Cảm Ơn</h2>
                     <div className="pt-8">
-                        <div className="py-1">Cảm ơn bạn đã dành thời gian đến tham dự lễ tốt nghiệp của mình, sự có mặt của bạn là niềm vinh hạnh của Như Ý.</div>
-                        <div className="py-1">Lễ tốt nghiệp này không chỉ là một cột mốc quan trọng trong cuộc đời mình mà còn là dịp để mình nhìn lại hành trình đã qua, và nhận ra rằng không gì có thể đạt được nếu thiếu đi sự ủng hộ và động viên của những người thân yêu. Sự hiện diện của bạn ngày hôm nay đã làm cho ngày này trở nên đặc biệt hơn rất nhiều.</div>
-                        <div className="py-1"> Mỗi bước đi trong suốt hành trình học tập vừa qua đều có dấu ấn của tình bạn, sự khích lệ và những khoảnh khắc chia sẻ. Những lúc khó khăn, bạn đã ở bên cạnh, động viên và tiếp thêm sức mạnh cho mình vượt qua. Những niềm vui, thành công mà mình có được ngày hôm nay đều có phần đóng góp không nhỏ từ tình bạn quý báu này.</div>
-                        <div className="py-1">Cảm ơn bạn vì đã luôn tin tưởng và sát cánh bên mình. Mình thực sự trân trọng từng khoảnh khắc mà chúng ta đã trải qua cùng nhau. Mình hy vọng rằng tình bạn của chúng ta sẽ mãi bền chặt, và chúng ta sẽ còn nhiều dịp khác để cùng nhau chia sẻ những niềm vui và thành công trong tương lai.</div>
-                        <div className="py-1">Một lần nữa, xin chân thành cảm ơn sự hiện diện của bạn trong ngày trọng đại này. Mình mong rằng con đường phía trước của bạn cũng sẽ ngập tràn thành công và hạnh phúc.</div>
-                        <div className="py-1">Trân trọng và yêu mến,</div>
-                        Như Ý
+                        <p className="py-1">Cảm ơn bạn đã dành thời gian đến tham dự lễ tốt nghiệp của mình, sự có mặt của bạn là niềm vinh hạnh của Như Ý.</p>
+                        <p className="py-1">Lễ tốt nghiệp này không chỉ là một cột mốc quan trọng trong cuộc đời mình mà còn là dịp để mình nhìn lại hành trình đã qua, và nhận ra rằng không gì có thể đạt được nếu thiếu đi sự ủng hộ và động viên của những người thân yêu. Sự hiện diện của bạn ngày hôm nay đã làm cho ngày này trở nên đặc biệt hơn rất nhiều.</p>
+                        <p className="py-1"> Mỗi bước đi trong suốt hành trình học tập vừa qua đều có dấu ấn của tình bạn, sự khích lệ và những khoảnh khắc chia sẻ. Những lúc khó khăn, bạn đã ở bên cạnh, động viên và tiếp thêm sức mạnh cho mình vượt qua. Những niềm vui, thành công mà mình có được ngày hôm nay đều có phần đóng góp không nhỏ từ tình bạn quý báu này.</p>
+                        <p className="py-1">Cảm ơn bạn vì đã luôn tin tưởng và sát cánh bên mình. Mình thực sự trân trọng từng khoảnh khắc mà chúng ta đã trải qua cùng nhau. Mình hy vọng rằng tình bạn của chúng ta sẽ mãi bền chặt, và chúng ta sẽ còn nhiều dịp khác để cùng nhau chia sẻ những niềm vui và thành công trong tương lai.</p>
+                        <p className="py-1">Một lần nữa, xin chân thành cảm ơn sự hiện diện của bạn trong ngày trọng đại này. Mình mong rằng con đường phía trước của bạn cũng sẽ ngập tràn thành công và hạnh phúc.</p>
+                        <p className="py-1">Trân trọng và yêu mến,</p>
+                        <p className="font-dancing text-xl"> Như Ý</p>
                     </div>
                 </div>
             </Modal>
