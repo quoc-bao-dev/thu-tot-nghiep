@@ -13,6 +13,7 @@ const App = () => {
         else return "Thân"
 
     }
+
     const [opened, { open, close }] = useDisclosure(false);
     return (
         <div className='w-screen min-h-screen bg-[#f9f2e9] px-3 md:px-0 py-12'>
